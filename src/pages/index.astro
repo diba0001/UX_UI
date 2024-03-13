@@ -1,0 +1,36 @@
+---
+import "../styles/styles.css";
+import Card from "../components/Card.astro";
+import Navigation from "../components/Navigation.astro";
+import Button from "../components/Button.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="styles.css">
+		<title>Astro</title>
+	</head>
+	<body>
+		<Navigation/>
+		<h1>Astro</h1>
+		<main>
+<Button variant="primary" size="small">TEXT</Button>
+<Button variant="secondary" size="medium">TEXT</Button>
+<Button variant="secondary" size="large">TEXT</Button>
+<!-- <Card header="Hej verden"/>
+<img src="/batcat.jpeg" alt="batcat">
+<button>BAAATCAAAAT</button>
+<Card/>
+
+<Card header="Hej verden"/>
+<button>BAAATCAAAAT</button>
+<p>dis is a superhero</p>
+<img src="/batcat.jpeg" alt="batcat">
+<Card/> -->
+	</main>
+	</body>
+</html>
